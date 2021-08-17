@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 680px;
+    margin: auto;
+}
+
+.screen {
+    width: 670px;
+    border: 1px solid gray;
+    height: 200px;
+    background-color: white;
+    border-radius: 6px;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.text {
+    white-space: pre-line;
+}
+
+.key {
+    width: 45px;
+    height: 45px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.checked {
+    background-color: gray;
+    border: 1px solid white;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.backspace {
+    width: 70px;
+}
+
+.tab {
+    width: 70px;
+}
+
+.capslock {
+    width: 80px;
+}
+
+.enter {
+    width: 80px;
+}
+
+.shift {
+    width: 103px;
+}
+
+.space {
+    width: 100%;
+}
